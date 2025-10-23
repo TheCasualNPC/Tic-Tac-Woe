@@ -31,6 +31,7 @@ as long as the .ogg and pyw are in the same folder the music will play with the 
 
 4. **if you want to build the exe yourself**
 
-pip install pyinstaller
-pyinstaller --onefile --windowed --icon "Tic Tac Woe.ico" --add-data "game_theme.ogg;." --name TicTacWoe "Tic Tac Woe.pyw"
+         pip install pyinstaller
+   
+       pyinstaller --onefile --windowed --icon "Tic Tac Woe.ico" --add-data "game_theme.ogg;." --name TicTacWoe "Tic Tac Woe.pyw"
 
